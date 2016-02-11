@@ -1,6 +1,8 @@
 "use strict";
 console.log('You should see this log message in your console');
 
+
+
 // Put all your code in this anonymous function, which is executed
 // immediately; That way, we do not "pollute" the global namespace in
 // our web browser.
@@ -42,7 +44,12 @@ console.log('You should see this log message in your console');
     // clicks on the submit button and then calls the `sendChatMessage`
     // function with the value of the text entered in the textbox.
     // 
-    function startAcceptingUserChats(){
+    function startAcceptingUserChats(){ ("#submit" ).click(function() {
+        function sendChatMessage(message){
+            
+        }
+    })
+        
     }
     
     // This event is fired when all the content on the page
